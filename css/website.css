@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+}
+body, html {
+    height: 100%;
+    width:100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #232B2B;
+    background-attachment: fixed;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.nav {
+    background-color: rgba(34,34,34,1);
+    position: fixed;
+    left:0%;
+    width: 100%;
+    height: 12%;
+    z-index: 1;
+}
+.nav:hover{
+    background-color: rgba(34,34,34,1);
+    z-index: 100;
+
+}
+ul{
+    margin: 1% 4%;
+}
+/*ul:hover{
+    background-color: rgba(34,34,34);
+}*/
+
+li {
+    display: inline-block;
+    width: 20%;
+    padding-bottom: 0.5em;
+    font-family: "Cabin Sketch",Sans-Serif;
+    color: rgba(227,174,87,0.3);/*
+    color: #fff;*/
+    font-size: 2em;
+    margin: 0.7em 1em;
+    text-align: center;
+
+}
+
+li:hover {
+    color: rgba(227,174,87,1);
+    font-size: 2.7em;
+    margin: 0 0.75em;
+    text-align: center;
+}
+
+#bar li{
+    visibility: visible;
+}
+
+#bar:hover li{
+    visibility: visible;/*
+    -webkit-transition: all 0.3s ease;*/
+
+}
+.left {
+    float: left;
+    width: 100%;
+    padding-top:9%;
+    display: inline-block;
+
+}
+.left h1 {
+    color: #DC3D24;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 500;
+    font-size: 10em;
+    text-align: center;
+}
+
+.left h2{
+    color: #DC3D24;
+    font-family: 'Cabin Sketch',cursive;
+    font-weight: 400;
+    font-size: 8em;
+    text-align: center;
+}
+
+.right {
+    float: right;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 100;
+    font-size: 5em;
+}
+
+p {
+    color: #E3AE57;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 300;
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+.table {
+    height: 100%;
+    width: 80%;
+    visibility: hidden;
+}
+tr {
+    margin: 5%;
+    height: 5%;
+    border-bottom: 1px solid #E3AE57;
+}
+tr:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+td {
+    margin-left: 0;
+    padding: 1.75% 4%;
+    border-bottom: 1px solid #E3AE57;
+    font-size: 1.9em;
+    color: silver;
+    border-right: none;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+#record {
+    width: 100%;
+    margin: 0% 10%;
+    text-align: center;
+    padding: 1% 3%;
+}
+table {
+    margin: 1%;
+    border: 1px dashed #DC3D24;
+}
+.table-head {
+    font-size: 2.5em;
+    font-family: "Cabin Sketch",cursive;
+    margin: 3% 3%;
+    padding: 3% 4%;
+    color: cadetblue;
+    border-bottom: 3px dashed #E3AE57;
+    font-weight: 200;
+    height: 70px;
+
+}
+.table-head:hover {
+    background-color: transparent;
+}
+#bash, #cont {
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.75em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    padding-top: 7.5%;
+}
+.interest {
+    margin: 0.5% 4%;
+}
+#desc {
+    text-align: left;
+    padding-top: 1%;
+    font-size: 1.75em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    display: block;
+    margin-top: 5%;
+}
+
+#head {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 3em;
+}
+#code {
+    color: slategrey;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#bb {
+    color: ghostwhite;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#html {
+    color: silver;
+    font-size: 1.75em;
+}
+#python {
+    color: darkslategrey;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+#Got {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: rgba(0,0,0,0.3);
+}
+
+#math {
+    color: aliceblue;
+    font-size: 1.9em;
+}
+#ed {
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+#friend {
+    color: #555;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#Meme {
+    color: #999999;
+}
+#phys {
+    color: silver;
+    font-size: 2.7em;
+    font-weight: 600;
+}
+#arijit {
+    color: slategrey;
+    font-size: 1.4em;
+}
+
+#comic {
+    color: #999999;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+#barca {
+    color: rgba(100,149,237,0.2) ;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#js {
+    color: #b3d4fc;
+    font-size: 2.7em;
+    font-weight: bold;
+}
+
+#linux {
+    color: silver;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#robot {
+    font-family: "Monoton",cursive;
+    color: rgba(255,0,0,0.5);
+    font-size: 1.8em;
+    font-weight: 200;
+}
+
+#AI {
+    font-weight: bold;
+    font-size: 3em;
+    color: lightslategrey;
+}
+
+#uav {
+    font-size: 2.6em;
+    font-weight: bold;
+    color: burlywood;
+}
+
+#arduino {
+    font-size: 1.7em;
+    color: aquamarine;
+}
+
+#ML {
+    font-size: 2.9em;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+#relativity {
+    font-size: 2.2em;
+    font-weight: 400;
+    color: blanchedalmond;
+}
+
+#qp {
+    color: #555;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#tennis {
+    color: #b3d4fc;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.type {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap;/* Keeps the content on a single line */
+   /* border-right: 5px solid #222;*/
+  animation:
+    typing 2.25s steps(35, end),
+    blink-caret .75s step-end 2s;
+}
+
+/* Animation from article by Geoff Graham - https://css-tricks.com/snippets/css/typewriter-effect */
+/* The typing effect */
+@keyframes typing {
+  from { width: 0%}
+  to { width: 92% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #222; }
+}
+.interest {
+    visibility: hidden;
+}
+.visible {
+    visibility: visible;
+}
+
+.new3, .new, .new2 {
+    margin: 0 4%;
+    padding: 0;
+}
+
+
+.new p, .new2 p, .new3 p{
+    margin-top: 0;
+
+}
+
+img {
+    height: 15%;
+    width: 13%;
+    padding: 0% 2%;
+    margin: 1% 2.5%;
+    display: inline-block;
+}
+#dp {
+    padding: 0;
+    margin: 0;
+    box-shadow: #DC3D24;
+    width: 13%;
+    height:15%;
+    border: 1px solid transparent ;
+    border-radius: 100%;
+    display: inline-block;
+
+}
+#quora {
+    height:15%;
+    width:13%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#mail {
+    margin-left:0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 20%;
+    height: 18%;
+}
+
+.footer {
+
+    width: 100%;
+    height: 7%;
+    background-color: #222222;
+    color: white;
+    font-family: "Cabin Sketch", cursive;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.footer p{
+    text-align: center;
+    margin-top: 8.5%;
+    padding-top: 0.5%;
+    font-size: 1.5em;
+}
+
+.contactInfo {
+    visibility: hidden;
+}
